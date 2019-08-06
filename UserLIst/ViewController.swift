@@ -10,16 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-//    var members: [UserModel] = [
-//        UserModel(name: <#T##String#>, hobby: <#T##String#>),
-//        UserModel(name: <#T##String#>, hobby: <#T##String#>),
-//        UserModel(name: <#T##String#>, hobby: <#T##String#>),
-//        UserModel(name: <#T##String#>, hobby: <#T##String#>),
-//        UserModel(name: <#T##String#>, hobby: <#T##String#>),
-//        UserModel(name: <#T##String#>, hobby: <#T##String#>),
-//        UserModel(name: <#T##String#>, hobby: <#T##String#>)
-//    ]
-//    
+    var members: [UserModel] = [
+        UserModel(name: <#T##String#>, hobby: <#T##String#>),
+        UserModel(name: <#T##String#>, hobby: <#T##String#>),
+        UserModel(name: <#T##String#>, hobby: <#T##String#>),
+        UserModel(name: <#T##String#>, hobby: <#T##String#>),
+        UserModel(name: <#T##String#>, hobby: <#T##String#>),
+        UserModel(name: <#T##String#>, hobby: <#T##String#>),
+        UserModel(name: <#T##String#>, hobby: <#T##String#>)
+    ]
+    
     
     
     

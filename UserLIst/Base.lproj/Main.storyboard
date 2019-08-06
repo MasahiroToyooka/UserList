@@ -206,15 +206,15 @@
             </objects>
             <point key="canvasLocation" x="828" y="504"/>
         </scene>
-        <!--View Controller-->
+        <!--Next View Controller-->
         <scene sceneID="mBX-ic-9VC">
             <objects>
-                <viewController id="RXG-vw-C17" sceneMemberID="viewController">
+                <viewController id="RXG-vw-C17" customClass="NextViewController" customModule="UserLIst" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H3j-WY-9jt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   名前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGc-sX-Hsr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　名前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGc-sX-Hsr">
                                 <rect key="frame" x="0.0" y="44" width="414" height="50"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -224,15 +224,54 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ドMくん" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJ7-SN-HPD">
+                                <rect key="frame" x="16" y="102" width="382" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="RYC-kO-8qs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="　趣味" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLF-1V-Vea">
+                                <rect key="frame" x="0.0" y="166" width="414" height="60"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="NY5-eb-J8Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNc-mC-msh">
+                                <rect key="frame" x="16" y="234" width="382" height="612"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="fGc-sX-Hsr" firstAttribute="leading" secondItem="wSG-d6-FCu" secondAttribute="leading" id="D1v-3s-afR"/>
+                            <constraint firstItem="wSG-d6-FCu" firstAttribute="bottom" secondItem="LNc-mC-msh" secondAttribute="bottom" constant="16" id="5Pe-R6-lao"/>
+                            <constraint firstItem="fLF-1V-Vea" firstAttribute="leading" secondItem="wSG-d6-FCu" secondAttribute="leading" id="6Kq-T2-e51"/>
+                            <constraint firstItem="LNc-mC-msh" firstAttribute="top" secondItem="fLF-1V-Vea" secondAttribute="bottom" constant="8" id="A0c-ZI-DVA"/>
+                            <constraint firstItem="OJ7-SN-HPD" firstAttribute="top" secondItem="fGc-sX-Hsr" secondAttribute="bottom" constant="8" id="Ayo-BW-i00"/>
+                            <constraint firstItem="fGc-sX-Hsr" firstAttribute="leading" secondItem="wSG-d6-FCu" secondAttribute="leading" id="D1v-3s-afR" userLabel="名前.leading = Safe Area.leading"/>
+                            <constraint firstItem="LNc-mC-msh" firstAttribute="leading" secondItem="wSG-d6-FCu" secondAttribute="leading" constant="16" id="FOH-nQ-r6T"/>
+                            <constraint firstItem="wSG-d6-FCu" firstAttribute="trailing" secondItem="OJ7-SN-HPD" secondAttribute="trailing" constant="16" id="bj5-0L-1HB"/>
+                            <constraint firstItem="OJ7-SN-HPD" firstAttribute="leading" secondItem="wSG-d6-FCu" secondAttribute="leading" constant="16" id="dTJ-pe-6Oy"/>
+                            <constraint firstItem="fLF-1V-Vea" firstAttribute="top" secondItem="OJ7-SN-HPD" secondAttribute="bottom" constant="4" id="gwh-nq-SKK"/>
                             <constraint firstItem="wSG-d6-FCu" firstAttribute="trailing" secondItem="fGc-sX-Hsr" secondAttribute="trailing" id="swL-lA-F7y"/>
                             <constraint firstItem="fGc-sX-Hsr" firstAttribute="top" secondItem="wSG-d6-FCu" secondAttribute="top" id="tLP-SY-d95"/>
+                            <constraint firstItem="wSG-d6-FCu" firstAttribute="trailing" secondItem="fLF-1V-Vea" secondAttribute="trailing" id="wQ1-KD-Qiw"/>
+                            <constraint firstItem="wSG-d6-FCu" firstAttribute="trailing" secondItem="LNc-mC-msh" secondAttribute="trailing" constant="16" id="y9D-VW-ygG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wSG-d6-FCu"/>
                     </view>
+                    <connections>
+                        <outlet property="hobbyLabel" destination="LNc-mC-msh" id="7Al-gZ-ShB"/>
+                        <outlet property="nameLabel" destination="OJ7-SN-HPD" id="H2e-MO-UMB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="87t-6H-ILY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
