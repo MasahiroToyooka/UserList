@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--ユーザーリスト-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UserLIst" customModuleProvider="target" sceneMemberID="viewController">
@@ -253,7 +253,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ghZ-Kl-qHB"/>
+                    <navigationItem key="navigationItem" title="ユーザーリスト" id="ghZ-Kl-qHB"/>
                     <connections>
                         <segue destination="RXG-vw-C17" kind="show" identifier="showDetail" id="RXp-W0-VtG"/>
                     </connections>
@@ -262,10 +262,10 @@
             </objects>
             <point key="canvasLocation" x="828" y="504"/>
         </scene>
-        <!--Next View Controller-->
+        <!--ユーザーデータ-->
         <scene sceneID="mBX-ic-9VC">
             <objects>
-                <viewController id="RXG-vw-C17" customClass="NextViewController" customModule="UserLIst" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="ユーザーデータ" id="RXG-vw-C17" customClass="NextViewController" customModule="UserLIst" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H3j-WY-9jt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -280,7 +280,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ドMくん" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJ7-SN-HPD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中村泰輔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJ7-SN-HPD">
                                 <rect key="frame" x="16" y="146" width="382" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="RYC-kO-8qs"/>
