@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FTn-FN-kcO">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1170"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1260"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Qmz-N8-fBR">
-                                                <rect key="frame" x="30" y="20" width="354" height="1150"/>
+                                                <rect key="frame" x="30" y="20" width="354" height="1240"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1w3-Ri-Eln">
                                                         <rect key="frame" x="0.0" y="0.0" width="354" height="70"/>
@@ -37,6 +37,9 @@
                                                         <state key="normal" title="永井 有">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o5x-uQ-cB3"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nds-Ix-Gf4">
                                                         <rect key="frame" x="0.0" y="90" width="354" height="70"/>
@@ -48,6 +51,9 @@
                                                         <state key="normal" title="小野 雄輔">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZu-Ke-AGD"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXV-aW-2Vx">
                                                         <rect key="frame" x="0.0" y="180" width="354" height="70"/>
@@ -56,12 +62,29 @@
                                                             <constraint firstAttribute="height" constant="70" id="piq-p9-ZWt"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                                        <state key="normal" title="分目 裕太">
+                                                        <state key="normal" title="豊岡 正紘">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EGh-Ky-qLX"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMX-Qc-m8E">
+                                                        <rect key="frame" x="0.0" y="270" width="354" height="70"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="70" id="jLI-E0-eDs"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                        <state key="normal" title="分目 祐太">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LX7-hM-hyK"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2K-qG-vyq">
-                                                        <rect key="frame" x="0.0" y="270" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="360" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="9cW-Pc-lzS"/>
@@ -70,9 +93,12 @@
                                                         <state key="normal" title="金田 祐作">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hL9-oG-IAv"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STd-0I-iKe">
-                                                        <rect key="frame" x="0.0" y="360" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="450" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="qug-zt-k2I"/>
@@ -81,9 +107,12 @@
                                                         <state key="normal" title="甲斐崎 香">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJG-r6-p9n"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9p-TL-LNJ">
-                                                        <rect key="frame" x="0.0" y="450" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="540" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="UWI-qS-p2E"/>
@@ -92,9 +121,12 @@
                                                         <state key="normal" title="志賀 大河">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SU2-1N-frq"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtL-h1-Ou9">
-                                                        <rect key="frame" x="0.0" y="540" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="630" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="mvb-QB-Gkr"/>
@@ -103,9 +135,12 @@
                                                         <state key="normal" title="津國 由莉子">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DSk-SB-6SN"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jke-Rd-2Mz">
-                                                        <rect key="frame" x="0.0" y="630" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="720" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="Tfx-aX-Fhb"/>
@@ -114,9 +149,12 @@
                                                         <state key="normal" title="中村泰輔">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="APo-m7-PPw"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mu1-kY-cnX">
-                                                        <rect key="frame" x="0.0" y="720" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="810" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="z9O-Ml-2DU"/>
@@ -125,9 +163,12 @@
                                                         <state key="normal" title="堀田 真">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pRQ-Lz-WnF"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Wk-jl-yZD">
-                                                        <rect key="frame" x="0.0" y="810" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="900" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="oEq-Iu-KyH"/>
@@ -136,9 +177,12 @@
                                                         <state key="normal" title="田内翔太郎">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1hB-z5-7F7"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="472-FM-EtR">
-                                                        <rect key="frame" x="0.0" y="900" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="990" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="hY8-OF-ZLn"/>
@@ -147,9 +191,12 @@
                                                         <state key="normal" title="福沢貴一">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LQU-R2-Z6h"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEA-Gi-gAA">
-                                                        <rect key="frame" x="0.0" y="990" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="1080" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="R7U-Dc-HrQ"/>
@@ -158,9 +205,12 @@
                                                         <state key="normal" title="平田奈那">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jnI-bP-hec"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7km-ob-3I8">
-                                                        <rect key="frame" x="0.0" y="1080" width="354" height="70"/>
+                                                        <rect key="frame" x="0.0" y="1170" width="354" height="70"/>
                                                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="70" id="MNF-gQ-nhG"/>
@@ -169,6 +219,9 @@
                                                         <state key="normal" title="吉澤優衣">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1JN-Rr-ZxM"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -202,19 +255,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="ghZ-Kl-qHB"/>
                     <connections>
-                        <outletCollection property="buttonCollection" destination="1w3-Ri-Eln" collectionClass="NSMutableArray" id="Vsb-Xm-3zy"/>
-                        <outletCollection property="buttonCollection" destination="nds-Ix-Gf4" collectionClass="NSMutableArray" id="8R9-MT-kxc"/>
-                        <outletCollection property="buttonCollection" destination="YXV-aW-2Vx" collectionClass="NSMutableArray" id="f3E-ru-bnJ"/>
-                        <outletCollection property="buttonCollection" destination="K2K-qG-vyq" collectionClass="NSMutableArray" id="1uf-CI-PTa"/>
-                        <outletCollection property="buttonCollection" destination="STd-0I-iKe" collectionClass="NSMutableArray" id="j51-uX-COs"/>
-                        <outletCollection property="buttonCollection" destination="q9p-TL-LNJ" collectionClass="NSMutableArray" id="oqU-dy-I72"/>
-                        <outletCollection property="buttonCollection" destination="MtL-h1-Ou9" collectionClass="NSMutableArray" id="E4g-oM-6Et"/>
-                        <outletCollection property="buttonCollection" destination="jke-Rd-2Mz" collectionClass="NSMutableArray" id="HRW-Rk-oXY"/>
-                        <outletCollection property="buttonCollection" destination="Mu1-kY-cnX" collectionClass="NSMutableArray" id="3Sw-fx-VGV"/>
-                        <outletCollection property="buttonCollection" destination="0Wk-jl-yZD" collectionClass="NSMutableArray" id="PDf-Y7-I2d"/>
-                        <outletCollection property="buttonCollection" destination="472-FM-EtR" collectionClass="NSMutableArray" id="ZMK-mD-gy1"/>
-                        <outletCollection property="buttonCollection" destination="QEA-Gi-gAA" collectionClass="NSMutableArray" id="3XF-rb-ltu"/>
-                        <outletCollection property="buttonCollection" destination="7km-ob-3I8" collectionClass="NSMutableArray" id="On9-DC-D5n"/>
                         <segue destination="RXG-vw-C17" kind="show" identifier="showDetail" id="RXp-W0-VtG"/>
                     </connections>
                 </viewController>

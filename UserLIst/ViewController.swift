@@ -10,34 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
-    @IBOutlet var buttonCollection: [UIButton]!
+  
+    
+    
+    var tagNum: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupButton()
     }
     
     // segue遷移前動作
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard segue.identifier == "showDetail", let vc = segue.destination as? NextViewController else { return }
         
-//        vc.dataNum = buttonCollection[1].tag
+        vc.dataNum = tagNum
     }
     
-    
-    func setupButton() {
-        for i in 0..<buttonCollection.count {
-            let button = buttonCollection[i]
-            
-            button.addTarget(self, action: #selector(pushAction(_:)), for: .touchUpInside)
-        }
-    }
-    
-    @objc func pushAction(_ sender: UIButton) {
+    @IBAction func pushButton(_ sender: UIButton) {
+        tagNum = sender.tag
         performSegue(withIdentifier: "showDetail", sender: nil)
-        print(sender.tag)
     }
 }
 
