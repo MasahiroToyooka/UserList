@@ -11,12 +11,13 @@ import UIKit
 
 class NextViewController: UIViewController {
 
-    
+    // 名前を表示するラベル
     @IBOutlet weak var nameLabel: UILabel!
     
+    // 趣味を表示するラベル
     @IBOutlet weak var hobbyLabel: UILabel!
     
-    
+    // メンバーのデータを入れる配列
     var members: [UserModel] = [
         UserModel(name: "永井 優", hobby: "音楽が好き。ビジュアル系バンドが好きでバンドを組んでギターを弾いたりした。最近の趣味はバイクに乗ることとキックボクシング。"),
         UserModel(name: "小野 勇輔", hobby: "スポーツをすることと釣りが好きです！サッカーと水泳をやっていました"),
@@ -34,12 +35,16 @@ class NextViewController: UIViewController {
         UserModel(name: "吉澤優衣", hobby: "ゲームが大好き。特にドラクエをこよなく愛しており、2018年の夏休みは約200時間をドラクエに費やした。他にもピアノや海外旅行や読書など様々な趣味がある。")
     ]
     
+    // 遷移源から押されたボタンのタグ番号を入れる変数
     var dataNum: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 名前ラベルに押されたボタンの番号に応じてデータを入れる
         nameLabel.text  = members[dataNum].name
+        
+        // 趣味ラベルに押されたボタンの番号に応じてデータを入れる
         hobbyLabel.text = members[dataNum].hobby
     }
 }
