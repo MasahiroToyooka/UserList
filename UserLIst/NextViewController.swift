@@ -18,17 +18,16 @@ class NextViewController: UIViewController {
     @IBOutlet weak var hobbyLabel: UILabel!
     
    
-    
-    // 遷移源から押されたボタンのタグ番号を入れる変数
-    var userData: UserModel?
+    // 遷移源から辞書型のデータを入れる変数
+    var userData = [String: String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // nameLabelに受け取ったUserModel型のデータのnameを代入
-        nameLabel.text  = userData?.name
+        // nameLabelに受け取った辞書データのnameを代入
+        nameLabel.text  = userData["name"]
         
-        // hobbytextViewに受け取ったUserModel型のデータのhobbyを代入
-        hobbyLabel.text = userData?.hobby
+        // hobbytextViewに受け取った辞書データのhobbyを代入
+        hobbyLabel.text = userData["hobby"] 
     }
 }

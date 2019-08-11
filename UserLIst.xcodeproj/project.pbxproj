@@ -12,7 +12,6 @@
 		C1ADACBB22F8A4A100449A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ADACB922F8A4A100449A31 /* Main.storyboard */; };
 		C1ADACBD22F8A4A200449A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ADACBC22F8A4A200449A31 /* Assets.xcassets */; };
 		C1ADACC022F8A4A200449A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ADACBE22F8A4A200449A31 /* LaunchScreen.storyboard */; };
-		C1ADACC922F8A7DC00449A31 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADACC822F8A7DC00449A31 /* UserModel.swift */; };
 		C1ADACCB22F98F2200449A31 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADACCA22F98F2200449A31 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		C1ADACBC22F8A4A200449A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1ADACBF22F8A4A200449A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1ADACC122F8A4A200449A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1ADACC822F8A7DC00449A31 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		C1ADACCA22F98F2200449A31 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 		C1ADACB422F8A4A100449A31 /* UserLIst */ = {
 			isa = PBXGroup;
 			children = (
-				C1ADACC722F8A7C800449A31 /* Model */,
 				C1ADACB522F8A4A100449A31 /* AppDelegate.swift */,
 				C1ADACB722F8A4A100449A31 /* ViewController.swift */,
 				C1ADACCA22F98F2200449A31 /* NextViewController.swift */,
@@ -68,14 +65,6 @@
 				C1ADACC122F8A4A200449A31 /* Info.plist */,
 			);
 			path = UserLIst;
-			sourceTree = "<group>";
-		};
-		C1ADACC722F8A7C800449A31 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C1ADACC822F8A7DC00449A31 /* UserModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +140,6 @@
 			files = (
 				C1ADACB822F8A4A100449A31 /* ViewController.swift in Sources */,
 				C1ADACCB22F98F2200449A31 /* NextViewController.swift in Sources */,
-				C1ADACC922F8A7DC00449A31 /* UserModel.swift in Sources */,
 				C1ADACB622F8A4A100449A31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
