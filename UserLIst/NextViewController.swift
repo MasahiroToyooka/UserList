@@ -16,7 +16,6 @@ class NextViewController: UIViewController {
     
     // 趣味を表示するラベル
     @IBOutlet weak var hobbyLabel: UILabel!
-    
    
     // 遷移源から辞書型のデータを入れる変数
     var userData = [String: String]()
